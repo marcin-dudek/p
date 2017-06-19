@@ -1,0 +1,271 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="presentation.png" />
+
+    <title>Open the lock</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Open the lock</h1>
+                <h3>Marcin Dudek</h3>
+            </section>
+
+            <section>
+                <h1>About me</h1>
+                <h3>Marcin Dudek</h3>
+                <br/>
+                <br/>
+                <br/>
+                <small>make-sense.it</small>
+            </section>
+
+            <section>
+                <h2>Why threading?</h2>
+            </section>
+
+            <section>
+                <h2>What is synchronisation?</h2>
+                <ul>
+                    <li>Critical section</li>
+                    <li>Critical region</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Synchronisation</h2>
+                <p class="fragment">Kernel objects</p>
+                <p class="fragment">.NET abstractions</p>
+            </section>
+
+            <section>
+                <p>WaitHandle</p>
+                <img src="img/WaitHandle.png" />
+            </section>
+
+            <section>
+                <h2>Mutex</h2>
+                <p>Mutual Exclusion</p>
+                <ul>
+                    <li class="fragment">Named Mutex</li>
+                    <li class="fragment">Knows the owner</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Semaphore</h2>
+                <p>Multiple can access critical region</p>
+                <ul>
+                    <li class="fragment">Named Semaphore</li>
+                    <li class="fragment">Knows the owner</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>AutoResetEvent</h2>
+                <h2>ManualResetEvent</h2>
+                <ul>
+                    <li class="fragment">Named version only through EventWaitHandle</li>
+                    <li class="fragment">What about owner?</li>
+                    <li class="fragment">OpenExisting</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Slim versions</h2>
+                <ul>
+                    <li class="fragment">SemaphoreSlim</li>
+                    <li class="fragment">ManualResetEventSlim</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>lock</h2>
+                <ul>
+                    <li>Easiest and most common way to protect shared state.</li>
+                    <li>We need only reference type.</li>
+                </ul>
+            </section>
+
+            <section>
+                <p>'Safe' example</p>
+                <pre><code class="cs" data-trim contenteditable>
+public class Manager
+{
+    public void SuperSafeMethod()
+    {
+        object locker = new object();
+        lock (locker)
+        {
+        }
+    }
+}
+                </code></pre>
+            </section>
+
+            <section>
+                <p>'Safe' example</p>
+                <pre><code class="cs" data-trim contenteditable>
+public class Manager
+{
+    private double penetration;
+
+    public void Increment()
+    {
+        lock((object)penetration)
+        {
+            penetration++;
+        }
+    }
+}
+                </code></pre>
+            </section>
+
+            <section>
+                <p>lock - pre .NET 4.0</p>
+
+                <pre><code class="cs" data-trim contenteditable>
+Monitor.Enter(locker);
+try
+{
+    // access to shared state
+}
+finally
+{
+    Monitor.Exit(locker);
+}
+                </code></pre>
+            </section>
+
+            <section>
+                <p>lock - post .NET 4.0</p>
+
+                <pre><code class="cs" data-trim contenteditable>
+bool lockTaken;
+try
+{
+    Monitor.Enter(locker, out lockTaken)
+    // access to shared state
+}
+finally
+{
+    if(lockTaken)
+    {
+        Monitor.Exit(locker);
+    }            
+}
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Monitor</h2>
+                <ul>
+                    <li>Critical section (Enter, Exit) </li>
+                    <li>Notification (Pulse, PulseAll)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>lock</h2>
+                <!--part 1 -->
+                <ul>
+                    <li class="fragment">Knows the owner</li>
+                    <li class="fragment">Recursion count</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Object in memory</h2>
+                <!--part 1 -->
+                <img src="img/point_in_memory.png" alt="">
+            </section>
+
+            <section>
+                <h2>How lock works</h2>
+                <!--part 2 -->
+                <p>Thin lock</p>
+                <p>Sygnaling</p>
+            </section>
+
+            <section>
+                <h2>Synchronized</h2>
+
+                <pre><code class="cs" data-trim contenteditable>
+public class Manager
+{
+    [MethodImplAttribute(MethodImplOptions.Synchronized)] 
+    public void Increment(){ }
+}
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>ReaderWriterLock</h2>
+                <p>Why?</p>
+                <ul>
+                    <li class="fragment">Performance</li>
+                    <li class="fragment">There is also slim version!</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Sources</h2>
+                <ul>
+                    <li>Concurrent Programming on Windws - Joe Duffy</li>
+                    <li>Joe Duffy blog</li>
+                    <li>Advanced .NET Debugging - Mario Hewardt</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Q&amp;A</h2>
+                <br/>
+                <br/>
+                <br/>
+                <small>make-sense.it</small>
+                <br/>
+                <small>7.03.2017 (Tuesday)</small>
+            </section>
+        </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            history: true,
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: 'plugin/markdown/marked.js' },
+                { src: 'plugin/markdown/markdown.js' },
+                { src: 'plugin/notes/notes.js', async: true },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+            ]
+        });
+    </script>
+</body>
+
+</html>

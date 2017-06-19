@@ -1,0 +1,20 @@
+plan:
+0. how it is in .net exvchanign data
+0. GO
+1. Dwo different types: system and abstractions
+2. Describve first
+    3. Mutex vs Semaphore
+    4. Auto and manualreset event
+    5. Slim fit super mix
+    6. ReaderWriterLock
+    7. SemaphoreSlim
+8. abstactions
+    9. lock
+    10. changes net2 vs net4
+    11. monitor what is that
+    12. thin lock
+    13. sync block
+    14. 
+
+20. Attribute synchronised
+21. 
