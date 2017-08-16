@@ -6,18 +6,23 @@
 - How to make people like you
 - Convincing people 
 
+# Introduction
+This is mix os do's and dont's when talking with people.
+
 ## Basic people skills
 - Don't criticize, condemn or complain
-This is extremely easy
+This is extremely easy to complain, and wining will not change anything
 Biggest insult,
 People become defensive, provide info about code review about two sutbborn devs
 If you criticize others ideas they will defend it
+what to do instead?
+ask questions, focus on common goal, I like one thing and if you would improve 3rd slide it would be awesome
 
 - Give honest and sincere appreciation
 This is extremely hard because we are used to complain which is much easier
 Calling mother in law, and talking about who is is sick who died etc
 Freud: People are doing everything for sex or to be great
-Appreciate, but this should not be simple and without honesty
+Appreciate, but this should not be simple and without honesty 
 People recognize false recognition
 Promote behaviors not people
 Github starts,  people love appreciation.
@@ -36,10 +41,33 @@ Put photo here
 As simple as that, it is free 
 It is attitude
 
-- Encourage others to talk about themselves
+- Encourage others to talk, be a listener
 show your sincere interests in what they are doing
+Those who listen learn more
 
-- Remember persons name
-One persons name is more important than whole names altogether
+- Never say 'You are wrong'
+This is invite to argument and puts person in defensive position
+As mentioned before in code review example, people will be defending their decisions.
+Even if you have person who does not like argue, he will accept everything you say, he may eventually explode or quit.
 
+- Ask questions instead of giving orders
+Those questions should, lead person to solution.
+How would you handle situation A in your solution?
+Are you covering situation B?
+It requires preparation for discussion.
+Situation with cson,xml,json
 
+- Praise every improvement
+This will mean you are paying attention.
+You care about people. There is no bigger reward that someone notices what you achieved.
+Be specific! 
+
+- Trust your people
+if you show them goal they will be able to get there.
+The most fun project I was working in was with architect.... story about Tieto
+We felt that what we are building really matters and we were able to be creative 
+He was still to help us, and he saw bigger picture, had control over that
+
+- People will do things when they want to
+You can force people to do things, especially if you are their boss
+If they are engaged
