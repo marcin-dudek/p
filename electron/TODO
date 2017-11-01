@@ -1,0 +1,186 @@
+<div class="mb-4">
+    <a href="http://1clipboard.io" title="1Clipboard - A universal clipboard managing app that makes it easy to access your clipboard from anywhere on any device" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/1clipboard-icon.png" alt="1Clipboard">
+    </div>
+    <div class="featured-app-name">1Clipboard</div>
+    <div class="featured-app-description" style="display:none;">A universal clipboard managing app that makes it easy to access your clipboard from anywhere on any device</div>
+    <div class="featured-app-keywords" style="display:none;">clipboard</div>
+    </a>             
+    <a href="https://atom.io" title="Atom - A hackable text editor for the 21st Century" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/atom-icon.png" alt="Atom">
+    </div>
+    <div class="featured-app-name">Atom</div>
+    <div class="featured-app-description" style="display:none;">A hackable text editor for the 21st Century</div>
+    <div class="featured-app-keywords" style="display:none;">web developmentwritingeditorprogramminggitgithubdeveloper tools</div>
+    </a>         
+    <a href="https://beakerbrowser.com" title="Beaker Browser - An experimental P2P browser" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/beaker-browser-icon.png" alt="Beaker Browser">
+    </div>
+    <div class="featured-app-name">Beaker Browser</div>
+    <div class="featured-app-description" style="display:none;">An experimental P2P browser</div>
+    <div class="featured-app-keywords" style="display:none;">browserp2pdatdecentralizationhostingprivacy</div>
+    </a>        
+    <a href="https://caret.io" title="Caret - Markdown editor for Mac / Windows / Linux" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/caret-icon.png" alt="Caret">
+    </div>
+    <div class="featured-app-name">Caret</div>
+    <div class="featured-app-description" style="display:none;">Markdown editor for Mac / Windows / Linux</div>
+    <div class="featured-app-keywords" style="display:none;">editor</div>
+    </a>            
+    <a href="https://getcollectie.com/" title="Collectie - Your personal galaxy of inspiration" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/collectie-icon.png" alt="Collectie">
+    </div>
+    <div class="featured-app-name">Collectie</div>
+    <div class="featured-app-description" style="display:none;">Your personal galaxy of inspiration</div>
+    <div class="featured-app-keywords" style="display:none;">collectioninspirationdatabasedesignProductivity</div>
+    </a>                
+    <a href="http://discordapp.com" title="Discord - All-in-one voice and text chat for gamers" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/discord-icon.png" alt="Discord">
+    </div>
+    <div class="featured-app-name">Discord</div>
+    <div class="featured-app-description" style="display:none;">All-in-one voice and text chat for gamers</div>
+    <div class="featured-app-keywords" style="display:none;">games</div>
+    </a>
+    <a href="https://www.getflow.com/solutions/startups" title="Flow - Task Management Software That Doesn't Feel Like Work" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/flow-icon.png" alt="Flow">
+    </div>
+    <div class="featured-app-name">Flow</div>
+    <div class="featured-app-description" style="display:none;">Task Management Software That Doesn't Feel Like Work</div>
+    <div class="featured-app-keywords" style="display:none;">Productivity</div>
+    </a>              
+    <a href="https://ghost.org" title="Ghost - A professional publishing platform" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/ghost-icon.png" alt="Ghost">
+    </div>
+    <div class="featured-app-name">Ghost</div>
+    <div class="featured-app-description" style="display:none;">A professional publishing platform</div>
+    <div class="featured-app-keywords" style="display:none;">Productivity</div>
+    </a>
+    <a href="https://desktop.github.com" title="GitHub Desktop - Simple collaboration from your desktop" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/github-desktop-icon.png" alt="GitHub Desktop">
+    </div>
+    <div class="featured-app-name">GitHub Desktop</div>
+    <div class="featured-app-description" style="display:none;">Simple collaboration from your desktop</div>
+    <div class="featured-app-keywords" style="display:none;">gitgithubcollaborationeditorcodecommitsreviewdevelopertoolproductivity</div>
+    </a>
+    <a href="https://www.gitkraken.com/" title="GitKraken - The downright luxurious Git client for Windows, Mac and Linux" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/gitkraken-icon.png" alt="GitKraken">
+    </div>
+    <div class="featured-app-name">GitKraken</div>
+    <div class="featured-app-description" style="display:none;">The downright luxurious Git client for Windows, Mac and Linux</div>
+    <div class="featured-app-keywords" style="display:none;">gitprogrammingproductivity</div>
+    </a>
+    <a href="https://hyper.is" title="Hyper - HTML/JS/CSS Terminal" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/hyper-icon.png" alt="Hyper">
+    </div>
+    <div class="featured-app-name">Hyper</div>
+    <div class="featured-app-description" style="display:none;">HTML/JS/CSS Terminal</div>
+    <div class="featured-app-keywords" style="display:none;">terminalhtmlcssjs</div>
+    </a>
+    <a href="https://insomnia.rest/" title="Insomnia - REST API Client" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/insomnia-icon.png" alt="Insomnia">
+    </div>
+    <div class="featured-app-name">Insomnia</div>
+    <div class="featured-app-description" style="display:none;">REST API Client</div>
+    <div class="featured-app-keywords" style="display:none;">REST ClientHTTPAPIdeveloper tools</div>
+    </a>
+    <a href="https://www.jibo.com" title="JIBO - The world's first social robot" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/jibo-icon.png" alt="JIBO">
+    </div>
+    <div class="featured-app-name">JIBO</div>
+    <div class="featured-app-description" style="display:none;">The world's first social robot</div>
+    <div class="featured-app-keywords" style="display:none;">Entertainment</div>
+    </a>
+    <a href="https://getkap.co" title="Kap - An open-source screen recorder built with web technology" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/kap-icon.png" alt="Kap">
+    </div>
+    <div class="featured-app-name">Kap</div>
+    <div class="featured-app-description" style="display:none;">An open-source screen recorder built with web technology</div>
+    <div class="featured-app-keywords" style="display:none;">kapscreencapturerecordvideo</div>
+    </a>
+    <a href="https://kitematic.com" title="Kitematic - Run containers through a simple, yet powerful graphical user interface" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/kitematic-icon.png" alt="Kitematic">
+    </div>
+    <div class="featured-app-name">Kitematic</div>
+    <div class="featured-app-description" style="display:none;">Run containers through a simple, yet powerful graphical user interface</div>
+    <div class="featured-app-keywords" style="display:none;">docker</div>
+    </a>                 
+    <a href="https://zeit.co/app" title="Now - The desktop client for ZEIT's now.sh platform" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/now-icon.png" alt="Now">
+    </div>
+    <div class="featured-app-name">Now</div>
+    <div class="featured-app-description" style="display:none;">The desktop client for ZEIT's now.sh platform</div>
+    <div class="featured-app-keywords" style="display:none;">nowzeitdeploymentsharingdevelopment</div>
+    </a>
+    <a href="https://github.com/terkelg/ramme" title="Ramme - Unofficial Instagram Desktop App." class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/ramme-icon.png" alt="Ramme">
+    </div>
+    <div class="featured-app-name">Ramme</div>
+    <div class="featured-app-description" style="display:none;">Unofficial Instagram Desktop App.</div>
+    <div class="featured-app-keywords" style="display:none;">photossocialinstagram</div>
+    </a>
+    <a href="https://simplenote.com" title="Simplenote - An easy way to keep notes, lists, ideas and more." class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/simplenote-icon.png" alt="Simplenote">
+    </div>
+    <div class="featured-app-name">Simplenote</div>
+    <div class="featured-app-description" style="display:none;">An easy way to keep notes, lists, ideas and more.</div>
+    <div class="featured-app-keywords" style="display:none;">notesutilitysync</div>
+    </a>
+    <a href="https://slack.com" title="Slack - A messaging app for teams" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/slack-icon.png" alt="Slack">
+    </div>
+    <div class="featured-app-name">Slack</div>
+    <div class="featured-app-description" style="display:none;">A messaging app for teams</div>
+    <div class="featured-app-keywords" style="display:none;">messagingchatp2pvideovoipphonecommunity</div>
+    </a>
+    <a href="http://www.svgs.us" title="Svgsus - Organize, clean and transform your SVGs" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/svgsus-icon.png" alt="Svgsus">
+    </div>
+    <div class="featured-app-name">Svgsus</div>
+    <div class="featured-app-description" style="display:none;">Organize, clean and transform your SVGs</div>
+    <div class="featured-app-keywords" style="display:none;">iconsvgtoolproductivity</div>
+    </a>
+    <a href="https://code.visualstudio.com" title="Visual Studio Code - Open source code editor developed by Microsoft" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/visual-studio-code-icon.png" alt="Visual Studio Code">
+    </div>
+    <div class="featured-app-name">Visual Studio Code</div>
+    <div class="featured-app-description" style="display:none;">Open source code editor developed by Microsoft</div>
+    <div class="featured-app-keywords" style="display:none;">code</div>
+    </a>
+    <a href="https://webtorrent.io/desktop" title="WebTorrent - The streaming torrent client" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/webtorrent-icon.png" alt="WebTorrent">
+    </div>
+    <div class="featured-app-name">WebTorrent</div>
+    <div class="featured-app-description" style="display:none;">The streaming torrent client</div>
+    <div class="featured-app-keywords" style="display:none;">torrentsharingdatahostingp2pdecentralizedstreamingvideo</div>
+    </a>
+    <a href="https://desktop.wordpress.com" title="WordPress.com - A desktop app for Wordpress" class="featured-app">
+    <div class="featured-app-logo-wrapper">
+        <img class="featured-app-logo" src="/images/apps/wordpress-com-icon.png" alt="WordPress.com">
+    </div>
+    <div class="featured-app-name">WordPress.com</div>
+    <div class="featured-app-description" style="display:none;">A desktop app for Wordpress</div>
+    <div class="featured-app-keywords" style="display:none;">Productivity</div>
+    </a>
+</div>

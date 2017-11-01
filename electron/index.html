@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="../presentation.png" />
+
+    <title>Electron</title>
+
+    <link rel="stylesheet" href="../reveal/css/reveal.css">
+    <link rel="stylesheet" href="../reveal/css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../reveal/lib/css/zenburn.css">
+
+    <style>
+        #no-border {
+            border: 0;
+            background: none;
+            box-shadow: unset;
+        }
+    </style>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? '../reveal/css/print/pdf.css' : '../reveal/css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <img id="no-border" src="./img/electron-logo.svg" alt="">
+                <h3>Marcin Dudek</h3>
+            </section>
+
+            <section>
+                <h3>What options do we have?</h3>
+            </section>
+
+            <section>
+                <img src="https://avatars0.githubusercontent.com/u/159455?s=150&v=4" alt="Qt" id="no-border">
+                <img src="http://kivy.org/logos/kivy-logo-black-256.png" alt="Kylo" height="150" id="no-border">
+                <img src="https://avatars3.githubusercontent.com/u/3826779?v=4&s=150" alt="Haxe" id="no-border">
+                <img src="https://nwjs.io/img/logo.png" alt="nw.js" height="150" id="no-border">
+                <img src="https://avatars3.githubusercontent.com/u/4573241?s=150&v=4" alt="" id="no-border">
+                <p>Swing B4J</p>
+            </section>
+
+            <section>
+                <p>Build cross platform desktop apps with JavaScript, HTML, and CSS</p>
+                <p>Open source</p>
+            </section>
+
+            <section>
+                <p>Why?</p>
+            </section>
+
+            <section>
+                <h3>Apps using electron</h3>
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/1clipboard-icon.png" alt="1Clipboard">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/atom-icon.png" alt="Atom">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/beaker-browser-icon.png" alt="Beaker Browser">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/caret-icon.png" alt="Caret">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/collectie-icon.png" alt="Collectie">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/discord-icon.png" alt="Discord">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/flow-icon.png" alt="Flow">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/ghost-icon.png" alt="Ghost">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/github-desktop-icon.png" alt="GitHub Desktop">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/gitkraken-icon.png" alt="GitKraken">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/hyper-icon.png" alt="Hyper">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/insomnia-icon.png" alt="Insomnia">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/jibo-icon.png" alt="JIBO">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/kap-icon.png" alt="Kap">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/kitematic-icon.png" alt="Kitematic">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/postman-icon.png" alt="Postman">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/simplenote-icon.png" alt="Simplenote">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/slack-icon.png" alt="Slack">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/visual-studio-code-icon.png" alt="Visual Studio Code">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/webtorrent-icon.png" alt="WebTorrent">
+                <img id="no-border" height="100" src="https://electron.atom.io/images/apps/wordpress-com-icon.png" alt="WordPress.com">
+            </section>
+
+            <section>
+                <h3>Under the hood</h3>
+                <img src="./img/electron-overview.png" alt="electron overview" id="no-border">
+            </section>
+
+            <section>
+                <h3>Processes</h3>
+                <img src="./img/processes.png" alt="" id="no-border">
+
+            </section>
+        </div>
+    </div>
+
+    <script src="../reveal/lib/js/head.min.js"></script>
+    <script src="../reveal/js/reveal.js"></script>
+
+    <script>
+        Reveal.initialize({
+            history: true,
+            dependencies: [
+                { src: '../reveal/plugin/markdown/marked.js' },
+                { src: '../reveal/plugin/markdown/markdown.js' },
+                { src: '../reveal/plugin/notes/notes.js', async: true },
+                { src: '../reveal/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+            ]
+        });
+    </script>
+</body>
+
+</html>
